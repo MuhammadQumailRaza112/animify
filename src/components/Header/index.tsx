@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from '@/assets/svg/Logo.svg'
+import Logo from '../../assets/svg/Logo.svg'
 import * as Styled from "./Styled";
 import Link from "next/link";
 

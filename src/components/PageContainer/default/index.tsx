@@ -3,7 +3,7 @@
 import { ReactNode } from "react";
 
 import * as Styled from "./Styled";
-import Background from "@/assets/svg/HomeBackground.svg";
+import Background from "../../../assets/svg/HomeBackground.svg";
 
 export default function PageContainer({ children }: { children: ReactNode }) {
   return (

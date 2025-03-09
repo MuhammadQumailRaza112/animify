@@ -1,10 +1,10 @@
 
 import * as Styled from './Styled';
-import logo1 from "@/assets/svg/Logo.svg";
-import logo2 from "@/assets/svg/logo2.svg";
-import logo3 from "@/assets/svg/logo3.svg";
-import logo4 from "@/assets/svg/logo4.svg";
-import logo5 from "@/assets/svg/logo5.svg";
+import logo1 from "../../../../assets/svg/Logo.svg";
+import logo2 from "../../../../assets/svg/logo2.svg";
+import logo3 from "../../../../assets/svg/logo3.svg";
+import logo4 from "../../../../assets/svg/logo4.svg";
+import logo5 from "../../../../assets/svg/logo5.svg";
 import Image from 'next/image';
 
 

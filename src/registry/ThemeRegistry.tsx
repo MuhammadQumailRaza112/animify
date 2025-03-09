@@ -4,8 +4,8 @@ import { CssVarsProvider } from '@mui/material/styles';
 import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 
 
-import { DEFAULT_COLOR_SCHEME_ATTRIBUTE } from '@/theme/Constant';
-import theme from '@/theme/Theme';
+import { DEFAULT_COLOR_SCHEME_ATTRIBUTE } from '../theme/Constant';
+import theme from '../theme/Theme';
 
 export default function ThemeRegistry({ children }: { children: React.ReactNode }) {
   return (

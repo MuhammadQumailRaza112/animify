@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import {  Almarai } from "next/font/google";
 import "./globals.css";
-import ThemeRegistry from "@/registry/ThemeRegistry";
+import ThemeRegistry from "../registry/ThemeRegistry";
 
 
 

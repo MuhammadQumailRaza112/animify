@@ -1,4 +1,4 @@
-import SlidingList from '@/theme/SlidingLIst';
+import SlidingList from '../../../../theme/SlidingLIst';
 import {  Box, keyframes, styled, Typography } from '@mui/material';
 
 

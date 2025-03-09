@@ -1,5 +1,5 @@
 import * as Styled from "./styled";
-import Background from "@/assets/svg/AnimatedBackground.svg";
+import Background from "../../../../assets/svg/AnimatedBackground.svg";
 
 export default function Header() {
   return (
@@ -22,7 +22,7 @@ export default function Header() {
           </Styled.DemoButton>
         </Styled.ButtonWrapper>
       </Styled.HeaderWrapper>
-      <Styled.LayoutImage src={Background} layout="contain" alt="background" />
+      <Styled.LayoutImage style={{alignSelf:'center'}} src={Background}  layout="contain" alt="background" />
     </>
   );
 }

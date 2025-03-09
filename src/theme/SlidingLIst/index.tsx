@@ -8,7 +8,7 @@ const HorizontalScrollView = ({ children }: {children: React.ReactNode}) => {
 
   return (
     <Box sx={{ position: "relative", 
-      width: '70%',
+      width: '50%',
     overflow: "hidden" }}>
       {/* Left Fade */}
         <Box

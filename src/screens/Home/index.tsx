@@ -1,7 +1,7 @@
 "use client"
 
-import HeaderContainer from "@/components/Header";
-import PageContainer from "@/components/PageContainer"
+import HeaderContainer from "../../components/Header";
+import PageContainer from "../../components/PageContainer";
 import Header from "./sections/Header";
 import OurClents from "./sections/OurClients";
 
