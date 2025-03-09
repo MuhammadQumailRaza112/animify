@@ -36,22 +36,7 @@ const theme = extendTheme({
   colorSchemes: mergedColorSchemes,
   colorSchemeSelector: DEFAULT_COLOR_SCHEME_ATTRIBUTE,
 
-  ...merge(generateTypography(configs), {
-    components: {
-      MuiButtonBase: {
-        defaultProps: {
-          disableRipple: false,
-        },
-      },
-      MuiCssBaseline: {
-        styleOverrides: (
-          theme: Omit<Theme, 'components' | 'palette'> & CssVarsTheme,
-        ) => {
-          return generateGlobalStyles({ theme, configs });
-        },
-      },
-    },
-  }),
-});
+
+  })
 
 export default theme;

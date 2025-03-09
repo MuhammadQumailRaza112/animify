@@ -82,6 +82,7 @@ interface FontConfig {
     background?: {
       default?: string;
       paper?: string;
+      dark?: string;
     };
     'general-1'?: { main: string };
     'general-2'?: { main: string };
