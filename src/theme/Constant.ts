@@ -63,7 +63,7 @@ export const DEFAULT_COLOR_SCHEMES: Partial<
       background: {
         default: '#FFFFFF',
         paper: '#FAFAFA',
-        dark: '#010101'
+        // dark: '#010101'
       },
     },
   },
