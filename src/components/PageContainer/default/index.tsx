@@ -8,6 +8,7 @@ import Background from "../../../assets/svg/HomeBackground.svg";
 export default function PageContainer({ children }: { children: ReactNode }) {
   return (
     <Styled.PageContainer>
+      <Styled.BackgroundGradient />
       <Styled.NextImage
         src={Background}
         alt="Background"

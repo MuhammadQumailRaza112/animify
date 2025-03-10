@@ -12,7 +12,7 @@ export const HeaderContainer = styled("div")(({}) => ({
   gap: "10px",
   borderRadius:'200px',
   padding: "14px 32px",
-  zIndex:9999
+  zIndex:9999,
 }));
 
 export const LinkWrapper = styled(Box)(({}) => ({
