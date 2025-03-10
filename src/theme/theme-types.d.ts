@@ -54,6 +54,10 @@ declare module "@mui/material/styles" {
     "body-6-regular": React.CSSProperties;
   }
 
+  interface TypeBackground {
+    dark: string;
+  }
+
   // allow configuration using `createTheme`
   interface TypographyVariantsOptions {
     "heading-1-bold": React.CSSProperties;
@@ -126,9 +130,6 @@ declare module "@mui/material/styles" {
     "general-18"?: { main: string };
     "general-19"?: { main: string };
     "general-20"?: { main: string };
-    background: {
-      dark: string;
-    };
   }
   interface Palette {
     "general-1"?: { main: string };
@@ -151,9 +152,6 @@ declare module "@mui/material/styles" {
     "general-18"?: { main: string };
     "general-19"?: { main: string };
     "general-20"?: { main: string };
-    background: {
-      dark: string;
-    };
   }
 }
 
