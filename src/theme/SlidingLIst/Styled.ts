@@ -13,18 +13,15 @@ export const Container = styled(Box)(({ theme }) => ({
 
 export const ArrowRight = styled(IconButton)(
   ({
-    theme: {
-      spacing,
-      vars: { palette },
-    },
+    theme,
     disabled,
   }) => ({
-    padding: spacing(2),
+    padding: theme.spacing(2),
 
     '&:hover': {
-      backgroundColor: disabled ? 'none' : palette.primary.main,
+      backgroundColor: disabled ? 'none' : theme.palette.primary.main,
       '& i': {
-        color: palette.common.white,
+        color: theme.palette.common.white,
       },
     },
   }),
@@ -32,18 +29,15 @@ export const ArrowRight = styled(IconButton)(
 
 export const ArrowLeft = styled(IconButton)(
   ({
-    theme: {
-      spacing,
-      vars: { palette },
-    },
+    theme,
     disabled,
   }) => ({
-    padding: spacing(2),
+    padding: theme.spacing(2),
 
     '&:hover': {
-      backgroundColor: disabled ? 'none' : palette.primary.main,
+      backgroundColor: disabled ? 'none' : theme.palette.primary.main,
       '& i': {
-        color: palette.common.white,
+        color: theme.palette.common.white,
       },
     },
   }),

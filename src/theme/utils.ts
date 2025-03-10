@@ -108,6 +108,7 @@ export function elevation(e: number): string {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       return {} as any;
     }
+  // @ts-ignore
     return window?.__pkbg__ || {};
   }
   
