@@ -23,7 +23,6 @@ export const generateGlobalStyles = ({
           border-radius: 10px;
         }
         ::-webkit-scrollbar-thumb {
-        // background: ${theme.palette?.background?.dark};
           border-radius: 10px;
         }
       }
